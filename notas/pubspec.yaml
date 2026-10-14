@@ -1,10 +1,10 @@
-name: dart_alura_modulo1
+name: notas
 description: A sample command-line application.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.9.2
+  sdk: ^3.13.5
 
 # Add regular dependencies here.
 dependencies:
