@@ -1,4 +1,4 @@
-import 'package:exercicio_um/exercicio_um.dart';
+import 'package:exercicio_um_aula01/exercicio_um_aula01.dart';
 import 'package:test/test.dart';
 
 void main() {

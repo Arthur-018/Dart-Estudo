@@ -1,4 +1,4 @@
-import 'package:exercicio_tres/exercicio_tres.dart';
+import 'package:orientacao_a_objeto/orientacao_a_objeto.dart';
 import 'package:test/test.dart';
 
 void main() {
