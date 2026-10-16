@@ -1,4 +1,4 @@
-import 'package:dart_alura_modulo1/dart_alura_modulo1.dart';
+import 'package:orientacao_a_objeto/orientacao_a_objeto.dart';
 import 'package:test/test.dart';
 
 void main() {
