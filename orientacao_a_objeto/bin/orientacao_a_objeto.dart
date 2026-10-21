@@ -1,3 +1,4 @@
+import 'package:orientacao_a_objeto/conta.dart';
 void main(){
  Conta contaMatheus = Conta('Matheus', 1000);
  Conta contaRoberta = Conta('Roberta', 2000);
@@ -5,39 +6,14 @@ void main(){
  List<Conta> contas = <Conta>[contaMatheus, contaRoberta];
 
 for(Conta conta in contas ){
-  print(conta.titular);
-  print(conta.saldo);
+    conta.imprimeSaldo();
   }
 
-  contaRoberta.saldo = 5000;
+  contaRoberta.receber(3000);
+  contaMatheus.receber(200);
+  contaMatheus.enviar(5000);
 
-  print(contaRoberta.saldo);
-
-  receber(contaMatheus, 500);
-
-  print(contaMatheus.titular);
-  print(contaMatheus.saldo);
-
-  enviar(contaRoberta, 500);
-
-  print(contaRoberta.titular);
-  print(contaRoberta.saldo);
 }
 
 
-
-void receber(Conta conta, double valor ){
-  conta.saldo += valor;
-}
-
-void enviar(Conta conta, double valor){
-  conta.saldo -= valor;
-}
-
-class Conta {
-  String titular;
-  double saldo;
-
-  Conta(this.titular, this.saldo);
-}
 
