@@ -8,16 +8,13 @@ class Volei extends Esporte implements Pontuacao{
 
   @override
   void calculaPontos() {
-    // TODO: implement calculaPontos
   }
 
   @override
   void devolveColocacao() {
-    // TODO: implement devolveColocacao
   }
     
   }
-
 
 abstract class Esporte {
   String time;
