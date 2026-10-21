@@ -1,4 +1,4 @@
-import 'package:meu_app/meu_app.dart';
+import 'package:exercicios_teste/exercicios_teste.dart';
 import 'package:test/test.dart';
 
 void main() {

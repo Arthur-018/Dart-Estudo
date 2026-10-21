@@ -1,10 +1,10 @@
-name: meu_app
+name: exercicios_teste
 description: A sample command-line application.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.9.2
+  sdk: ^3.13.5
 
 # Add regular dependencies here.
 dependencies:
